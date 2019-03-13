@@ -1,9 +1,18 @@
 .header {
-    
+    display: flex;
+    justify-content: center;
 }
 .wrap {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 250px;
+}
+
+.add-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 #btn {
@@ -15,4 +24,21 @@
 
 #inputItem {
     margin-right: 10px;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div-todo-task {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-delete {
+    margin-left: 5px;
+    
 }
