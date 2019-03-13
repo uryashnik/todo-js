@@ -1,0 +1,18 @@
+.header {
+    
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    background-color: #47f347;
+    border: none;
+    height: 22px;
+    border-radius: 3px;
+}
+
+#inputItem {
+    margin-right: 10px;
+}
