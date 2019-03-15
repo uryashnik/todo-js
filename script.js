@@ -57,7 +57,7 @@ function deleteTask(id) {
 
 //Добавление новой записи в хранилище.
 function addTaskToStore() {
-    const inputValue = inputItem.value;
+    const inputValue = inputItem.value.charAt(0).toUpperCase() + inputItem.value.slice(1);
     if (inputValue.length > 0) {
         const storeItem = { todoName: inputValue, cheked: false, id }
         const newArr = [...store, storeItem];

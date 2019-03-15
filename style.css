@@ -16,14 +16,15 @@
 }
 
 #btn {
-    background-color: #47f347;
+    background-color: #24b124;
     border: none;
-    height: 22px;
+    height: 26px;
     border-radius: 3px;
+    color: white;
 }
 
 #inputItem {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #list {
@@ -44,5 +45,33 @@
 }
 
 .checked {
-    color: red;
+    color: rgb(92, 94, 92);
+    text-decoration: line-through;
+
+}
+
+.div-todo-task {
+    padding: 5px;
+    background-color: rgb(189, 192, 192);
+    margin-bottom: 5px;
+    border: 1px solid rgb(74, 145, 8);
+    border-radius: 3px;
+    color: rgb(15, 15, 14);
+    font-weight: bold;
+}
+
+input {
+    border-radius: 5px;
+    height: 18px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.btn-delete {
+    background-color: #24b124;
+    border: none;
+    height: 22px;
+    border-radius: 2px;
+    color: white;
+    
 }
